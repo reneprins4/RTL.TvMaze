@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTL.TvMazeApp", "RTL.TvMazeApp\RTL.TvMazeApp.csproj", "{55F94DFC-5043-4370-831C-7979E0B9E4C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTL.TvMazeApp", "RTL.TvMazeApp\RTL.TvMazeApp.csproj", "{55F94DFC-5043-4370-831C-7979E0B9E4C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTL.TvMazeApp.Domain", "RTL.TvMazeApp.Domain\RTL.TvMazeApp.Domain.csproj", "{8238CF90-E8CE-49B2-99A7-AAB97A876DB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTL.TvMazeApp.Infrastructure", "RTL.TvMazeApp.Infrastructure\RTL.TvMazeApp.Infrastructure.csproj", "{D139EDEF-82BE-4B95-8D15-3DAFD0A3E091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTL.TvMazeApp.UnitTests", "RTL.TvMazeApp.UnitTests\RTL.TvMazeApp.UnitTests.csproj", "{AE30B3B9-8018-471D-B8A9-82FF145DCF04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{55F94DFC-5043-4370-831C-7979E0B9E4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F94DFC-5043-4370-831C-7979E0B9E4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F94DFC-5043-4370-831C-7979E0B9E4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8238CF90-E8CE-49B2-99A7-AAB97A876DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8238CF90-E8CE-49B2-99A7-AAB97A876DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8238CF90-E8CE-49B2-99A7-AAB97A876DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8238CF90-E8CE-49B2-99A7-AAB97A876DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D139EDEF-82BE-4B95-8D15-3DAFD0A3E091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D139EDEF-82BE-4B95-8D15-3DAFD0A3E091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D139EDEF-82BE-4B95-8D15-3DAFD0A3E091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D139EDEF-82BE-4B95-8D15-3DAFD0A3E091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE30B3B9-8018-471D-B8A9-82FF145DCF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE30B3B9-8018-471D-B8A9-82FF145DCF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE30B3B9-8018-471D-B8A9-82FF145DCF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE30B3B9-8018-471D-B8A9-82FF145DCF04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
